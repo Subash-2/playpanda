@@ -1,0 +1,264 @@
+svg{
+    height: 30px !important;
+    width: 40px !important;
+   fill: gray !important;
+}
+
+.my-container{
+    max-height: 70% !important;
+}
+
+.lmg-svg{
+    height: 20px !important;
+    width: 25px !important;
+}
+.allign-correction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    background-color:#FAFAFC;
+    border: 1px solid transparent;
+
+    padding: 5% 11%;
+}
+
+
+
+.nav-item:hover{
+color: rgb(22, 12, 119) !important;
+}
+
+
+.align-do{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px !important;
+    
+  }
+.p-text{
+color: rgb(54, 48, 48);
+font-weight: 500;
+}
+.header-txt{
+line-height: 1.6;
+}
+.exp-btn{
+    border: none;
+    border-radius: 100px;
+    color: white;
+    padding: 6px 25px;
+    font-size: 14px!important;
+    font-weight: 600;
+    background-color: #232326;   
+}
+.p-text{
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(1, 1, 70);
+}
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+
+    
+    .container{
+display: flex;
+flex-wrap: wrap;
+    }
+  
+    h5{
+        color: gray;
+    }  
+}
+
+.high-text{
+    text-decoration: underline;
+}
+
+.arrow{
+    font-size: 100px !important;
+    font-weight: 800;
+    height: 25px !important;
+    width: 40px !important;
+    padding-left: 15px;
+    fill: whitesmoke !important;
+}
+
+.p-text-allign{
+font-size: 14px;
+font-weight: 600;
+color: gray;
+letter-spacing: 0.5px;
+word-spacing: 3.5px;
+line-height: 1.8;
+}
+
+svg{
+    fill:#FAFAFC;
+}
+.etc-content{
+    background-color: blue;
+    opacity: 2;
+}
+.space-tab{
+    padding-top: 600px !important;
+}
+.my-container{
+    position: relative;
+}
+.space-img{
+    padding-top: 50px;
+}
+
+.text-centers{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.img-header{
+    position: absolute;
+    width: 100%;
+    // height: %;
+    height: 85%;
+}
+.downloads{
+    background: linear-gradient(rgb(115, 115, 211),skyblue);
+}
+.img-hide{
+    padding-top: -50%
+}
+
+.main-container{
+   
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    border-radius: 20px;
+
+    .ones{
+        background-color: #FFFFFF !important;
+    }
+    .two{
+        background-color: #FAFAFC !important;
+    }
+    .three{
+        background-color: #F2F3F7 !important;
+    }
+    .four{
+        background-color: #FAFAFC !important;
+    }
+    .five{
+        background-color: #F2F3F7 !important;
+    }
+    .six{
+        background-color: #EBEAF2 !important;
+    }
+}
+.main-container .one{
+    background-color: #FAFAFC;
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 18px 20px 25px rgb(202, 200, 200);
+    h6{
+        padding-top:20%;
+    }
+}
+
+
+
+.top-space{
+    padding-top: 12%;
+}
+.new-padding{
+    padding-top: 20px;
+}
+
+@media(max-width : 505px){
+    .img-sizer{
+        height: 180px;
+        width: 135px;
+        margin-left: 7%;
+    }
+    .top-space{
+        padding-top: 10%;
+    }
+    .mover{
+        margin-top: 7%;
+    }
+    .new-padding{
+        padding-top: 0px !important;
+    }
+}
+
+@media(max-width : 768px){
+
+    
+.pad-tops{
+    padding-top: 70px;
+}
+   .display{
+    font-size: 1.5rem;
+        }
+        .p-text{
+            font-size: 12px !important;
+        }
+
+    .img-padding{
+margin-left: 0px;
+    }
+    .img-header{
+        position: absolute;
+        height: 100%;
+    }
+    .header-text{
+        font-size: 1.55rem;
+    }
+    .box-allign{
+        display: flex !important;
+        justify-content: end !important;
+        align-items: end !important;
+    }
+    .img-phone{
+        display: none;
+    }
+    .display-3{
+        font-size: 22px;
+    }
+    .p-text{
+        font-size: 13px;
+        font-weight: 600 !important;
+    }
+    
+    .main-container{
+
+        svg{
+            height: 16px !important;
+            width: 28px !important;
+           fill: gray !important;
+        }
+        width: 100%;
+        h6{font-size: 10px;
+            padding-top: 10px;
+            }
+            .main-container .one{
+                background-color: #FAFAFC;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                box-shadow: 18px 20px 25px rgb(202, 200, 200);
+            }
+    }
+}
+
+.text-lg-lefts{
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    padding: -20% !important;
+}
