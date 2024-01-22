@@ -262,3 +262,11 @@ margin-left: 0px;
     justify-content: end;
     padding: -20% !important;
 }
+
+@media(max-width:360px){
+    .img-sizer{
+        height: 140px;
+        width: 105px;
+        margin-left: 7%;
+    }
+}

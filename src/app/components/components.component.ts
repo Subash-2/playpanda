@@ -1,17 +1,18 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 import * as $ from 'jquery'
 
+
 @Component({
   selector: 'app-components',
   templateUrl: './components.component.html',
   styleUrls: ['./components.component.scss']
 })
 export class ComponentsComponent implements OnInit{
-
   showScroll: boolean = false;
   showScrollHeight = 200;
   hideScrollHeight = 200;
-
+  isNavMenuOpen = false;
+  isNavOpen = false;
 
   ngOnInit(): void {
     
@@ -36,6 +37,13 @@ export class ComponentsComponent implements OnInit{
 
    
   }
+
+  openNave(){
+    // $('#navMenu').addClass('show')
+    this.isNavMenuOpen = !this.isNavMenuOpen;
+    this.isNavOpen = !this.isNavOpen;
+  }
+  
   @HostListener('window:scroll', [])
   onWindowScroll() {
     if (

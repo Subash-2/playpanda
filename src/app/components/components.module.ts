@@ -13,6 +13,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { BlogDetailsComponent } from './blog-details/blog-details.component';
 import { HeadComponent } from './head/head.component';
 
+
 export const routes: Routes = [
  
   { path: '',component:ComponentsComponent, 
@@ -44,6 +45,7 @@ children:[
     RouterModule.forChild(routes),
     NgxPaginationModule,
     CarouselModule,
+
   ]
 })
 export class ComponentsModule { }
