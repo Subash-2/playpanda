@@ -7,7 +7,7 @@ import * as $ from 'jquery'
   templateUrl: './components.component.html',
   styleUrls: ['./components.component.scss']
 })
-export class ComponentsComponent implements OnInit{
+export class ComponentsComponent implements OnInit {
   showScroll: boolean = false;
   showScrollHeight = 200;
   hideScrollHeight = 200;
@@ -15,35 +15,38 @@ export class ComponentsComponent implements OnInit{
   isNavOpen = false;
 
   ngOnInit(): void {
-    
-//       // Back to top button
-//       $(window).scroll(function () {
-//           if ($(this).scrollTop() > 100) {
-//               $('.back-to-top').fadeIn('slow');
-//           } else {
-//               $('.back-to-top').fadeOut('slow');
-//           }
-//       });
-//       $('.back-to-top').click(function () {
-//           $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
-//           return false;
-//       });
+
+    //       // Back to top button
+    //       $(window).scroll(function () {
+    //           if ($(this).scrollTop() > 100) {
+    //               $('.back-to-top').fadeIn('slow');
+    //           } else {
+    //               $('.back-to-top').fadeOut('slow');
+    //           }
+    //       });
+    //       $('.back-to-top').click(function () {
+    //           $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
+    //           return false;
+    //       });
 
 
   }
-  closeNav(){ 
-    $('#navbarCollapse').removeClass('show'); 
+  closeNav() {
+    $('#navbarCollapse').removeClass('show');
     // $('#myDiv').removeClass('show'); 
+    this.scrollToTop();
+    this.isNavMenuOpen = !this.isNavMenuOpen;
+    this.isNavOpen = !this.isNavOpen;
 
-   
   }
 
-  openNave(){
+  openNave() {
     // $('#navMenu').addClass('show')
     this.isNavMenuOpen = !this.isNavMenuOpen;
     this.isNavOpen = !this.isNavOpen;
+    // $('#myDiv').removeClass('show'); 
   }
-  
+
   @HostListener('window:scroll', [])
   onWindowScroll() {
     if (
