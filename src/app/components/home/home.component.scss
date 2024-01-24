@@ -8,6 +8,36 @@ div {
 
 }
 
+.bg {
+    background-image: url('../../../assets/about us_bg.png');
+    padding-bottom: 3%;
+    padding-top: 3%;
+    color: white;
+
+    .allign-column>h5 {
+        padding-top: 10px;
+        color: #F9F9F9;
+        font-family: "Poppins", sans-serif !important;
+
+     
+    }
+
+    .allign-column>p {
+        padding-top: 10px;
+        // margin-top: 5%;
+    }
+
+    .btn-primary {
+        width: 135%;
+        color: black;
+        background: white;
+        border: none;
+        font-size: 18px;
+        border-radius: 5px;
+        padding-top: 10px;
+    }
+}
+
 .my-container {
     position: relative;
 }
@@ -496,7 +526,8 @@ span {
     align-items: space-evenly;
     padding: 0px 0 2px 5px;
     padding-top: 3px !important;
-    h6{
+
+    h6 {
         font-size: 11px !important;
     }
 }
@@ -504,6 +535,54 @@ span {
 
 .nav-item .nav-link {
     color: black !important;
+}
+
+.working-imgs {
+    width: 55%;
+}
+
+@media (min-width:769px) and (max-width:990px) {
+    .ss-size {
+        img {
+            margin-left: 20%;
+        }
+    }
+}
+
+@media (min-width:486px) and (max-width:768px) {
+    .ss-size {
+        img {
+            margin-left: 11%;
+        }
+    }
+}
+
+@media (min-width:426px) and (max-width:485px) {
+    .ss-size {
+        img {
+            margin-left: 4%;
+        }
+    }
+}
+
+@media (min-width:376px) and (max-width:425px) {
+    .ss-size {
+        img {
+            height: 85%;
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width:375px) {
+
+    .ss-size {
+        img {
+            height: 90%;
+            width: 90%;
+            margin-left: 8%;
+        }
+    }
 }
 
 @media(max-width:360px) {

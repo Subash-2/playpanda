@@ -10,7 +10,12 @@ export class BlogComponent implements OnInit{
   collection: any = [];
   p : number = 1;
 
-  backgroundImageUrl: string = '../../../assets/img/blog-1.jpg';
+  backgroundImageUrl: string = '../../../assets/blog-1.jpg';
+  backgroundImageUrl2: string = '../../../assets/blog2.jpg';
+  backgroundImageUrl3: string = '../../../assets/blog3.jpg';
+  backgroundImageUrl4: string = '../../../assets/blog4.jpg';
+  backgroundImageUrl5: string = '../../../assets/blog5.jpg';
+  backgroundImageUrl6: string = '../../../assets/blog6.jpg';
   constructor(){}
 
   ngOnInit(): void {

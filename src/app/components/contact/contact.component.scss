@@ -1,23 +1,26 @@
-svg{
+svg {
     height: 20px !important;
     width: 20px !important;
     font-size: 20px;
     fill: #00394f;
-   
+
 }
-.space-row{
-    padding-left:8%;
+
+.space-row {
+    padding-left: 8%;
 }
-.my-container{
+
+.my-container {
     position: relative;
 }
 
-.img-header{
+.img-header {
     position: absolute;
     width: 100%;
     // height: 100%;
 }
-.contact-btn{
+
+.contact-btn {
     background-color: #232326;
     outline: none;
     border: none;
@@ -28,12 +31,13 @@ svg{
     color: white;
 }
 
-.p-text{
+.p-text {
     font-size: 14px;
     word-spacing: 3;
     letter-spacing: 0.6px;
 }
-.contact-form{
+
+.contact-form {
     background-color: #fff;
     width: 100%;
     border-radius: 20px !important;
@@ -44,49 +48,58 @@ svg{
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
     height: 103%;
 }
-input,textarea{
-padding-left: 24px;
-border: 1px solid rgb(221, 215, 215);
-// font-size: 13px !important;
+
+input,
+textarea {
+    padding-left: 24px;
+    border: 1px solid rgb(221, 215, 215);
+    // font-size: 13px !important;
 }
-::placeholder{
+
+::placeholder {
     font-weight: 500;
     font-size: 13px;
 }
-.p-text{
+
+.p-text {
     font-size: 14px !important;
     line-height: 1.5;
     word-spacing: 3.5;
     letter-spacing: 0.3px;
 }
 
-.align-do{
+.align-do {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0px !important;
-    p{
+
+    p {
         font-size: 15px;
-    } 
-  }
-  .my-card{
+    }
+}
+
+.my-card {
     background-color: #fff;
     width: 80%;
-    
+
     border-radius: 15px !important;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 
-  }
-  .h3-space{
+}
+
+.h3-space {
     letter-spacing: 0.8px;
-  }
-  .line{
-background-color: #F9F9F9;
-border-bottom:1px dashed ;
-width: 68%;
-margin: auto;
-  }
-  .btn-infos{
+}
+
+.line {
+    background-color: #F9F9F9;
+    border-bottom: 1px dashed;
+    width: 68%;
+    margin: auto;
+}
+
+.btn-infos {
     color: white;
     background-color: #5B4FF5;
     border: none;
@@ -96,90 +109,125 @@ margin: auto;
     text-transform: capitalize;
     border-bottom: 50px !important;
 
-  }
+}
 
-  .pad-tops{
+.pad-tops {
     padding-top: 70px;
 }
 
-.sapce-cancel{
-padding-top: -200px !important;
+.sapce-cancel {
+    padding-top: -200px !important;
 }
-@media(max-width : 768px){
-    .space-row{
-        padding-left:0% !important;
-    }
- 
-    .display{
-        font-size: 1.5rem;
-            }
-            .p-text{
-                font-size: 12px !important;
-            }
-    .img-padding{
-        margin-left: 0px;
-            }
 
-    .para-div{
+@media(max-width : 768px) {
+    .space-row {
+        padding-left: 0% !important;
+    }
+
+    .display {
+        font-size: 1.5rem;
+    }
+
+    .p-text {
+        font-size: 12px !important;
+    }
+
+    .img-padding {
+        margin-left: 0px;
+    }
+
+    .para-div {
         margin: 0px !important;
 
-        .text-para{
-    margin: 0px !important;
-    width:auto !important;
-    
-        }
-        }
-        
+        .text-para {
+            margin: 0px !important;
+            width: auto !important;
 
-    .my-card{
+        }
+    }
+
+
+    .my-card {
         width: 100%;
         height: 100% !important;
     }
-    .contact-form{
+
+    .contact-form {
         width: 100%;
         height: 100%;
-       margin-left: 0px !important;
-       margin: 0px !important;
-       border-radius: 15px !important;
-        padding:0 0px !important;
+        margin-left: 0px !important;
+        margin: 0px !important;
+        border-radius: 15px !important;
+        padding: 0 0px !important;
         box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 
     }
-    .img-header{
+
+    .img-header {
         position: absolute;
-        height: 100%; 
+        height: 100%;
     }
 
-    h4{
+    h4 {
         font-size: 1.13rem;
     }
-    p{
+
+    p {
         font-size: 13px !important;
     }
-    .mbs{
+
+    .mbs {
         margin-top: 30px !important;
     }
-    .header-text{
+
+    .header-text {
         font-size: 1.55rem;
     }
-    .box-allign{
+
+    .box-allign {
         display: flex !important;
         justify-content: end !important;
         align-items: end !important;
     }
-    .img-phone{
+
+    .img-phone {
         display: none;
     }
-    .display-3{
+
+    .display-3 {
         font-size: 22px;
     }
-    .p-text{
+
+    .p-text {
         font-size: 12px !important;
         line-height: 1.5;
         word-spacing: 3.5;
         letter-spacing: 9;
     }
 }
-h6{
+
+h6 {
     font-weight: 800 !important;
+}
+
+.captcha {
+    width: 23%;
+}
+
+.form-check {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    left: 15%;
+}
+@media (min-width:426px) and (max-width:768px) {
+    .form-check{
+        left:2%;
+    }
+}
+
+@media (min-width:375px) and (max-width:425px) {
+    .form-check{
+        left:2%;
+    }
 }
