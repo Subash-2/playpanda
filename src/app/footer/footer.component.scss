@@ -63,8 +63,9 @@ margin-top: 1px;
 .my-span{
 font-size: 34px;
 }
-
-
+// .wid-div{
+//   width: 300px;
+// }
 
 .myFooter{
 background-color: #5e256c;
@@ -111,5 +112,8 @@ a{
     a{
       margin-left: 20px; 
     }
+    }
+
+    .empty{display: none;
     }
 }

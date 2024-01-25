@@ -135,7 +135,8 @@
 @media(max-width : 768px){
 
     .design-card{
-height: 200px !important;
+// height: 200px !important;
+width: 400px !important;
     }
 
     .space-tab{
@@ -175,5 +176,10 @@ padding-top: 1%;
     }
     .p-text{
         font-size: 14px;
+    }
+
+    .btn-content{
+        padding: 0;
+        margin: 0;
     }
 }
